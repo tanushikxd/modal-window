@@ -1,0 +1,67 @@
+.container {
+  max-width: 952px;
+  margin-left: 50%;
+}
+
+.pet-card {
+  width: 900px;
+  height: 500px;
+  background-color: #FAFAFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  border-radius: 35px;
+}
+.pet-card_main {
+  font-size: 35px;
+  line-height: 45px;
+}
+.pet-card_main-second_text {
+  width: 350px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.pet-info {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.pet-info_list-title {
+  position: relative;
+}
+.pet-info_list-title::before {
+  content: ".";
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 4px;
+  height: 4px;
+  color: #F1CDB3;
+  position: absolute;
+  left: -10px;
+  top: -3px;
+}
+
+.closing_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.closing_button-border {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  padding: 20px 20px;
+}
